@@ -1,4 +1,4 @@
 Credenciales:
 
-Usuario: Develoteca
+Usuario: develoteca
 Clave: admin
