@@ -13,7 +13,7 @@ if($accion!=''){
 
     switch($accion){
 
-        case 'agreagar':
+        case 'agregar':
 
             $sql="INSERT INTO productividad (id, nombre_Productividad) VALUES (NULL,:nombre_Productividad)";
             $consulta=$conexionBD->prepare($sql);

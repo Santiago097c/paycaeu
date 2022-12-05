@@ -9,7 +9,7 @@
         <div class="col-7">
         <form action="" method="post">
         <div class="card">
-            <div class="card-header"> productividad </div>
+            <div class="card-header"> Tipo de Reporte </div>
             <div class="card-body">
             <div class="mb-3 d-none">
                 <label for="" class="form-label">ID</label>
@@ -28,7 +28,7 @@
                         id="nombre_Productividad" 
                         value="<?php echo $nombre_productividad; ?>"
                         aria-describedby="helpId"
-                        placeholder="Nombre de productividad">
+                        placeholder="Nombre de Reporte">
            </div>
  
            <div class="btn-group" role="group" aria-label="">

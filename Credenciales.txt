@@ -1,4 +1,4 @@
 Credenciales:
 
-Usuario: develoteca
-Clave: admin
+Usuario: gerente
+Clave: 1088420276

@@ -2,8 +2,9 @@
 
       <div class="p-5 bg-light">
             <div class="container">
-                     <h1 class="display-3">Bienvenid@ a la app de Camiseria Europea</h1>
-                     <p class="lead">Genere extractos e informacion de la productividad</p>
+                     <h1 class="display-3">Bienvenid@ a la app de Nomina</h1>
+                     <img src="../src/fondo.png" alt="fondo" style="width: 1000px;height:350px;">
+                     <h2 class="lead">Genere extractos e informacion de la productividad</h2>
                      <hr class="my-2">
                      <p>Para iniciar a la app, da click abajo</p>
                      <p class="lead">

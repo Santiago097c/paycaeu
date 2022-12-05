@@ -29,7 +29,7 @@ $gerente=$consulta->fetch(PDO::FETCH_ASSOC);
 $pdf=new FPDF("L","mm",array(254,194));
 $pdf->AddPage();
 $pdf->setFont("Arial","B",16);
-agregarImagen($pdf,"../src/extracto.jpg",0,0);
+agregarImagen($pdf,"../src/extracto3.jpg",0,0);
 agregarTexto($pdf,ucwords(utf8_decode($gerente['nombre']." ".$gerente['apellido'])),60,70,'L',"Helvetica",30,0,84,115);
 agregarTexto($pdf,$gerente['nombre_Productividad'],-250,115,'C',"Helvetica",20,0,84,115);
 agregarTexto($pdf,date("d/m/Y"),-350,115,'C',"Helvetica",11,0,84,115);

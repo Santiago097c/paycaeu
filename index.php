@@ -5,7 +5,7 @@ if($_POST){
 
     $mensaje='Usuario o contrasena incorrectos';
 
-  if($_POST['usuario']=='develoteca' && $_POST['password']=='admin'){ 
+  if($_POST['usuario']=='gerente' && $_POST['password']=='1088420276'){ 
     $_SESSION['usuario']=$_POST['usuario'];
     header('Location: secciones/index.php');
   }
@@ -13,7 +13,7 @@ if($_POST){
 
 ?>
 <!doctype html>
-<html lang="es">
+<html lang="es-MX">
   <head>
     <title>PAYCAEU</title>
     <!-- Required meta tags -->
@@ -60,7 +60,7 @@ if($_POST){
                  <label for="" class="form-label">Contraseña</label>
                  <input type="password"
                    class="form-control" name="password" id="contraseña"
-                    aria-describedby="helpId" placeholder="contraseña">
+                    aria-describedby="helpId" placeholder="password">
                  <small id="helpId" class="form-text text-muted">escriba su Contraseña</small>
                </div>
 

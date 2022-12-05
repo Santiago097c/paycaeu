@@ -7,7 +7,7 @@ if(!isset($_SESSION['usuario'])){
 ?>
 
 <!doctype html>
-<html lang="es">
+<html lang="es-MX">
   <head>
     <title>PAYCAEU</title>
     <!-- Required meta tags -->
@@ -22,12 +22,12 @@ if(!isset($_SESSION['usuario'])){
      />
 </head>
 <body>
-   <nav class="navbar navbar-expand navbar-light bg-light">
+   <nav class="navbar navbar-expand navbar-dark" style="background-color: blue;"> 
    <div class="nav navbar-nav">
              <a class="nav-item nav-link active" href="index.php">Inicio </a>
              <a class="nav-item nav-link" href="vista_gerente.php">Gerencia</a>
-             <a class="nav-item nav-link" href="vista_productividad.php">Productividad</a>
-             <a class="nav-item nav-link" href="cerrar.php">Cerrar sesión</a>
+             <a class="nav-item nav-link" href="vista_productividad.php">Tipo de reporte</a>
+             <a class="nav-item nav-link" href="cerrar.php">cerrar sesión</a>
          </div>
       </nav>
   <div class="container">

@@ -6,7 +6,7 @@
         <form action="" method="post">
         <div class="card">
             <div class="card-header">
-                gerente
+                Agregar Empleado
             </div>
             <div class="card-body">
 
@@ -29,7 +29,7 @@
             </div>
            
             <div class="mb-3">
-              <label for="" class="form-label">Gerente:</label>
+              <label for="" class="form-label">Tipo de ingreso:</label>
 
               <select multlipe class="form-control" name="productividad[]" id="listaproductividad">
 
@@ -55,7 +55,7 @@
             <div class="btn-group" role="group" aria-label="">
                 <button type="submit" name="accion" value="agregar" class="btn btn-success">Agregar</button>
                 <button type="submit" name="accion" value="editar" class="btn btn-warning">Editar</button>
-                <button type="submit" name="accion" value="borrar" class="btn btn-danger">Borra</button>
+                <button type="submit" name="accion" value="borrar" class="btn btn-danger">Borrar</button>
             </div>
 
 

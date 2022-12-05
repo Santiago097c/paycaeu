@@ -37,11 +37,7 @@ if($accion!=""){
         break;
 
         case 'Seleccionar':
-
-           
-
-           
-
+               
             $sql="SELECT * FROM gerente WHERE id=:id";
             $consulta=$conexionBD->prepare($sql);
             $consulta->bindParam(':id',$id);
